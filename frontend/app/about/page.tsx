@@ -97,7 +97,7 @@ export default function AboutPage() {
 
       <div className="bg-white rounded-xl shadow-sm p-6 text-center text-gray-600">
         <p className="text-sm">
-          © 2024 MagnitudeAI • Powered by XGBoost, FastAPI, dan Next.js
+          © 2026 Magnitude Prediction • Powered by XGBoost, FastAPI, dan Next.js
         </p>
       </div>
     </div>

@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { LayoutDashboard, Map, Zap, BarChart3, Info, Menu, X } from 'lucide-react';
+import { LayoutDashboard, Zap, BarChart3, Info, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
 const menuItems = [
@@ -11,11 +11,7 @@ const menuItems = [
     href: '/',
     icon: LayoutDashboard,
   },
-  {
-    name: 'Peta Gempa',
-    href: '/',
-    icon: Map,
-  },
+
   {
     name: 'Prediksi Manual',
     href: '/predict',
@@ -108,7 +104,7 @@ export default function Sidebar() {
           {/* Footer */}
           <div className="p-4 border-t border-white/10">
             <p className="text-xs text-white/50 text-center">
-              © 2024 MagnitudeAI
+              © 2026 Magnitude Prediction
               <br />
               Powered by XGBoost
             </p>
