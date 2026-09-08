@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: #F5F5F0;
+  --foreground: #171717;
+  --navy: #0A1F44;
+  --brokenwhite: #FAFAF7;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-navy: var(--navy);
+  --color-brokenwhite: var(--brokenwhite);
+  --font-sans: 'Poppins', system-ui, sans-serif;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Poppins', system-ui, sans-serif;
+}
+
+/* Leaflet CSS */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
